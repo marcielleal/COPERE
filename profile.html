@@ -10,7 +10,7 @@
       overflow: hidden;
       position: relative;
     }
-    
+
     .our-team .picture {
       display: inline-block;
       height: 130px;
@@ -19,7 +19,7 @@
       z-index: 1;
       position: relative;
     }
-    
+
     .our-team .picture::before {
       content: "";
       width: 100%;
@@ -34,11 +34,11 @@
       transform: scale(3);
       transition: all 0.3s linear 0s;
     }
-    
+
     .our-team:hover .picture::before {
       height: 100%;
     }
-    
+
     .our-team .picture::after {
       content: "";
       width: 100%;
@@ -50,7 +50,7 @@
       left: 0;
       z-index: -1;
     }
-    
+
     .our-team .picture img {
       width: 100%;
       height: auto;
@@ -58,19 +58,19 @@
       transform: scale(1);
       transition: all 0.9s ease 0s;
     }
-    
+
     .our-team:hover .picture img {
       box-shadow: 0 0 0 14px #f7f5ec;
       transform: scale(0.7);
     }
-    
+
     .our-team .title {
       display: block;
       font-size: 15px;
       color: #4e5052;
-      text-transform: capitalize;
+      /* text-transform: capitalize; */
     }
-    
+
     .our-team .social {
       width: 100%;
       padding: 0;
@@ -81,99 +81,68 @@
       left: 0;
       transition: all 0.5s ease 0s;
     }
-    
-    .our-team:hover .social {
-      bottom: 0;
-    }
-    
-    .our-team .social li {
-      display: inline-block;
-    }
-    
-    .our-team .social li a {
-      display: block;
-      padding: 10px;
-      font-size: 17px;
-      color: white;
-      transition: all 0.3s ease 0s;
-      text-decoration: none;
-    }
-    
-    .our-team .social li a:hover {
-      color: #1369ce;
-      background-color: #f7f5ec;
-    }
-    </style>
+  </style>
 </head>
+
 <body>
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="https://picsum.photos/130/130?image=1027">
+            <img class="img-fluid"
+              src="">
           </div>
           <div class="team-content">
-            <h3 class="name">Michele Miller</h3>
-            <h4 class="title">Web Developer</h4>
+            <h3 class="name">Aline Romão</h3>
+            <h4 class="title">
+              <a href="mailto:aline.romao@ccae.ufpb.br">aline.romao@ccae.ufpb.br</a>
+            </h4>
           </div>
-          <ul class="social">
-            <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
-          </ul>
         </div>
       </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="https://picsum.photos/130/130?image=839">
+            <img class="img-fluid"
+              src="">
           </div>
           <div class="team-content">
-            <h3 class="name">Patricia Knott</h3>
-            <h4 class="title">Web Developer</h4>
+            <h3 class="name">Daniel Silva</h3>
+            <h4 class="title">
+              <a href="mailto:daniel@ccae.ufpb.br">daniel@ccae.ufpb.br</a>
+            </h4>
           </div>
-          <ul class="social">
-            <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-linkedin" aria-hidden="true"></a></li>
-          </ul>
         </div>
       </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="https://picsum.photos/130/130?image=856">
+            <img class="img-fluid"
+              src="">
           </div>
           <div class="team-content">
-            <h3 class="name">Justin Ramos</h3>
-            <h4 class="title">Web Developer</h4>
+            <h3 class="name">Kaline</h3>
+            <h4 class="title">
+              <a href="mailto:marciel@ccae.ufpb.br">gilkaline@ccae.ufpb.br</a>
+            </h4>
           </div>
-          <ul class="social">
-            <!-- <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-linkedin" aria-hidden="true"></a></li> -->
-          </ul>
         </div>
       </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+            <img class="img-fluid"
+              src="https://gravatar.com/avatar/2839c10c670088c9fc6e6af22efe2343?d=https%3A%2F%2Fassets.codepen.io%2Finternal%2Favatars%2Fusers%2Fdefault.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Mary Huntley</h3>
-            <h4 class="title">Web Developer</h4>
+            <h3 class="name">Marciel Leal</h3>
+            <h4 class="title">
+              <a href="mailto:marciel@ccae.ufpb.br">marciel@ccae.ufpb.br</a>
+            </h4>
           </div>
-          <ul class="social">
-            <!-- <li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
-            <li><a href="#" class="fa fa-linkedin" aria-hidden="true"></a></li> -->
-          </ul>
         </div>
       </div>
     </div>
-  </div>    
+  </div>
 </body>
